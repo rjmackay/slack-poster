@@ -2,7 +2,7 @@ module Slack
   class Attachment
     ATTRIBUTES = [
       :fallback, :text, :title, :title_link, :image_url, :thumb_url, :color, :pretext, :author,
-      :author_name, :author_link, :author_icon
+      :author_name, :author_link, :author_icon, :mrkdwn_in
     ].freeze
 
     ATTRIBUTES.each do |attribute|
